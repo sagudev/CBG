@@ -1,0 +1,13 @@
+[package]
+name = "CBG"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#wgpu-core = "0.19"
+#wgpu-types = "0.19"
+#wgpu = "0.19"
+wgpu = { git = "https://github.com/gfx-rs/wgpu", branch = "trunk" }
+tokio = { version = "1", features = ["full"] }
